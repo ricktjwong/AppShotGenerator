@@ -6,7 +6,7 @@ class databaseConnect {
 
 		$userEmail = $_POST['email'];
 
-		$link = mysqli_connect("localhost", "cl53-appshot", "9Ut3bm-UU", "cl53-appshot");
+		$link = mysqli_connect("localhost", "cl53-appshot", "xxxx", "xxxx");
 
 		$query = "INSERT INTO `users` (`email`) VALUES ('$userEmail')";
 
